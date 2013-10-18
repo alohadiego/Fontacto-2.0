@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <title>Fontacto.com</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Gudea:400,700|Roboto:300' rel='stylesheet' type='text/css'>
+    <link href="bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link href="css/animations.css" rel="stylesheet" />
+    
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>      
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar" ></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand slideDown" href="#"><img src="img/logo.png" alt="" /></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#" id="cuantocuesta">Cuanto cuesta</a></li>
+            <li><a href="#">Preguntas</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="btn btn-default btn-lg">Iniciar Sesión</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="llamanos">
+    	<div class="container">
+    		<h2><span class="bold_roboto">Dudas y contrataciones:</span>  01 (800) 030-2263  ó  (55) 1209-1160</h2>
+    	</div>
+    </div>
+
+  	<div class="dudas">
+  		<div class="container">
+  			<h1>¿Tienes alguna duda?</h1>
+  			
+  		</div>
+  	</div>
+	<nav class="navbar navbar-default sub" role="navigation">
+		<div class="container">
+			<button type="button" class="btn btn-default navbar-btn">Contratación</button>
+			<button type="button" class="btn btn-default navbar-btn">Mensaje de Bienvenida</button>
+			<button type="button" class="btn btn-default navbar-btn">Cómo funciona</button>
+			<button type="button" class="btn btn-default navbar-btn">Cómo comprar</button>
+			<button type="button" class="btn btn-default navbar-btn">Comparativa</button>
+		</div>
+	</nav>
+
+
+  	
+  	<div class="preguntas">
+  		<div class="container">
+  			<h1>Contratación</h1>
+  			
+  			<h2>¿Hay algún plazo forzoso?</h2>
+  			<p>Fontacto es un servicio sin plazo forzoso que funciona a través del prepago de créditos. Los créditos que adquieres tienen una vigencia de 30 días a partir de tu fecha de compra.</p>
+  			
+  			<h2>¿Puedo tener un número 01-800?</h2>
+  			<p>Actualmente sólo te podemos brindar números locales de las ciudades: Guadalajara, Monterrey, Distrito Federal y Aguascalientes.</p>
+  			
+  			<h2>¿Tengo que instalar algo?</h2>
+  			<p>Con Fontacto no necesitas instalar nada en tu computadora o teléfono. Cuando requieras hacer un cambio en la configuración, puedes hacerlo en tu panel de usuario desde cualquier navegador de Internet.</p>
+  			
+  		</div>
+  	</div>
+  	
+  	
+    
+    <div class="footer">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-7">
+	    			<ul>
+	    				<li>Cuanto cuesta</li>
+	    				<li>Contrata</li>
+	    				<li>Preguntas</li>
+	    				<li>Contacto</li>
+	    			</ul>
+    			</div>
+    			<div class="col-md-3">
+    				<p>Copyright ® 2012 Fontacto, Inc.</p>
+    			</div>
+    		</div> <!--end row-->
+    	</div><!--end container -->
+    </div><!--end footer -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="bxslider/jquery.bxslider.min.js"></script> 
+    
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    	  $('.bxslider').bxSlider();
+    	});
+    </script>
+    
+   <script>
+   	$(window).scroll(function() {
+   		var funcionalidad_header_pos = $('#funcionalidad_header').offset().top;
+   		var reconocimientos_header_pos = $("#reconocimientos_header").offset().top;
+   		var topOfWindow = $(window).scrollTop();
+   		
+   		if (funcionalidad_header_pos < topOfWindow+700){
+   			$('.feature i').addClass("fadeIn"); 
+   		}
+   		
+   		if (reconocimientos_header_pos < topOfWindow+700){
+   			$('.reconocimientos img').addClass("fadeIn"); 
+   		}
+   	});
+   	
+   	$('#cuantocuesta').click(function(){
+   		$.scrollTo($('.cuantocuesta'),1200,'slow');
+   	});
+   	
+   	$('#boton_contratar').click(function(){
+   		$.scrollTo($('.cuantocuesta'),1200,'slow');
+   	});
+   	
+   	$('#boton_funcionalidad').click(function(){
+   		$.scrollTo($('.funcionalidad'),1200,'slow');
+   	});
+   	
+   </script>
+   
+ 
+	</body>
+</html>

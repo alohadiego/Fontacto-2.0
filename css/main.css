@@ -407,6 +407,30 @@ div.footer {
 	padding-top: 17px;
 }
 
+nav.navbar.navbar-default.sub {
+	text-align: center;
+}
+
+.side{
+	position: fixed;
+	top: 200px;
+	background-color: #fafa91;
+	width: 213px;
+	left: 15%;
+}
+
+div.dudas {
+	background-color: #27c8fe;
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+
+
+.dudas h1{
+	color: #ffffff;
+	margin-top: 53px;
+}
+
 @media (max-width: 767px) {
 	.slider img{
 		display: none;
@@ -508,7 +532,6 @@ button.navbar-toggle:hover {
 	float: none;
 	display: block;
 }
-
 
 
 
