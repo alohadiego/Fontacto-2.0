@@ -1,0 +1,541 @@
+body {
+	font: 18px/26px Gudea, Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 400;
+	color: #777;
+/*	-webkit-text-stroke: 0.35px*/
+}
+
+h1 {
+	font: 2.111em Roboto, Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 300;
+	text-align: center;
+	margin: 0;
+}
+
+h2 {
+	font: 1.722em Roboto, Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 300;
+	text-align: center;
+	margin: 0;
+}
+
+#exampleInputEmail1 {
+	margin-bottom: 20px;
+	padding: 20px 15px;
+}
+
+i.icon-cloud-download {
+	padding: 0;
+	margin: 0 12px 0 0;
+	font-size: 19px;
+}
+
+i.icon-plus-sign {
+	padding: 0;
+	margin: 0 12px 0 0;
+	font-size: 19px;
+}
+
+textarea.form-control {
+	margin-top: 20px;
+	display: none;
+}
+
+button.btn.btn-warning.btn-lg {
+	margin-bottom: 2px;
+}
+
+h3 {
+	font: 1.167em Gudea, Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+}
+
+h4 {
+	font: 1em Gudea, Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+}
+
+h5 {
+	font: 0.889em Gudea, Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+}
+
+div.queobtienes {
+	padding-top: 107px;
+	padding-bottom: 108px;
+	background-color: #EEEEEE;
+	text-align: center;
+}
+
+div.navbar.navbar-default.navbar-fixed-top {
+	color: #ffffff;
+	height: 90px;
+	background-color: white;
+}
+
+ul.nav.navbar-nav {
+	margin-top: 19px;
+	margin-left: 50px;
+}
+
+.llamanos{
+	position: fixed;
+	top: 90px;
+	background-color: rgba(0, 0, 0, 0.68);
+	right: 0;
+	left: 0;
+	z-index: 2;
+	height: 60px;
+}
+
+.llamanos h2{
+	text-align: center;
+	color: white;
+	margin-top: 14px;
+	font-size: 1.15em;
+}
+
+span.bold_roboto {
+	font-weight: 500;
+}
+
+div.slider {
+	margin-top: 90px;
+	background-image: url(../img/ciudad.jpg);
+	height: 420px;
+	color: white;
+	text-align: center;
+}
+
+.slider img{
+	height: 420px;
+}
+
+.slider h1 {
+	margin-top: 135px;
+}
+
+small {
+	display: block;
+	margin-top: 5px;
+}
+
+.slider p{
+	margin-bottom: 30px;
+	margin-top: 15px;
+}
+
+i.icon-phone{
+	padding: 28px 31px;
+	font-size: 2.5em;
+	width: 20px;
+	height: 20px;
+}
+
+.queobtienes i{
+		background-color: #DDDDDD;
+	width: 20px;
+	height: 20px;
+	visibility: hidden;
+}
+
+i{
+	padding: 30px;
+	font-size: 2.5em;
+	width: 20px;
+	height: 20px;
+}
+
+.queobtienes p{
+	margin-top: 83px;
+}
+
+.queobtienes h1{
+	margin-bottom: 83px;
+}
+
+.funcionalidad{
+	background-color: #26C9FF;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 109px;
+	padding-bottom: 25px;
+}
+
+.funcionalidad i {
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	color: #0085B2;
+	visibility: hidden;
+}
+
+.funcionalidad h1{
+	margin-bottom: 83px;
+}
+
+.funcionalidad h4{
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+
+.funcionalidad p{
+	margin-bottom: 89px;
+}
+
+.cuantocuesta{
+	padding-top: 108px;
+}
+
+.cuantocuesta h1{
+	margin-bottom: 45px;
+}
+
+div.header_telcel {
+	background-color: #024DA1;
+	text-align: center;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-top: 43px;
+	height: 77px;
+}
+
+div.container_paquete {
+	background-color: #EEEEEE;
+	text-align: center;
+	padding-bottom: 29px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+div.formaspago_telcel {
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #DDDDDD;
+	padding-top: 15px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.formaspago_telcel h4{
+	margin-bottom: 15px;
+}
+
+.header_telcel img{
+	margin-top: 22px;
+}
+
+.container_paquete h2{
+	padding-top: 24px;
+	margin-bottom: 20px;
+}
+
+.container_paquete h3{
+	margin-bottom: 17px;
+}
+
+.container_paquete p{
+	margin-bottom: 22px;
+}
+
+.formaspago_telcel ul li{
+	display: inline;
+	margin-left: 2px;
+}
+
+
+
+.formaspago_telcel ul{
+	margin: 0 0 19px;
+	padding: 0;
+}
+
+div.header {
+	background-color: #00BFFF;
+	text-align: center;
+	height: 77px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #ffffff;
+	padding-top: 17px;
+	margin-top: 43px;
+}
+
+.prueba {
+	text-align: center;
+	width: 400px;
+	margin: 59px auto 60px;
+}
+
+.prueba p{
+	float: left;
+	margin-right: 20px;
+}
+
+.prueba button{
+	float: left;
+}
+
+.como_se_usan h1{
+	padding-top: 48px;
+	border-top: 1px solid #DDDDDD;
+	margin-bottom: 57px;
+}
+
+.como_se_usan i{
+	background-color: #3c85af;
+	color: #ffffff;
+	font-size: 2em;
+	padding: 14px;
+	float: left;
+	margin-right: 20px;
+}
+
+i.icon-mobile-phone.img-circle {
+	width: 50px;
+	height: 50px;
+	padding: 8px 0 0 17px;
+}
+
+span.bold {
+	font-weight: 700;
+}
+
+i.icon-phone.img-circle {
+	width: 50px;
+	height: 50px;
+	padding: 9px 0 0 12px;
+}
+
+i.img-circle.nextel {
+	width: 50px;
+	height: 50px;
+	padding: 9px 0 0 17px;
+}
+
+i.icon-phone.img-circle.phone-bg {
+	padding: 31px 36px;
+}
+
+i.icon-skype.img-circle {
+	width: 50px;
+	height: 50px;
+	padding: 8px 0 0 10px;
+}
+
+i.img-circle.nextel img {
+	padding-bottom: 6px;
+}
+
+.masinfo {
+	font: 17px/26px Gudea, Arial, Helvetica, Geneva, sans-serif !important;
+	font-weight: 400 !important;
+	color: #777 !important;
+	text-align: center !important;
+	margin-bottom: 117px;
+	margin-top: 42px;
+}
+
+
+.como_se_usan p{
+	font-size: .778EM;
+	text-align: left;
+}
+
+
+div.testimoniales {
+	background-color: #EEEEEE;
+	padding-top: 62px;
+	padding-bottom: 83px;
+}
+
+.testimoniales h1{
+	margin-bottom: 99px;
+}
+
+.testimoniales p{
+	margin-top: 85px;
+}
+
+div.reconocimientos {
+	padding-top: 107px;
+	padding-bottom: 117px;
+	text-align: center;
+}
+
+.reconocimientos p{
+	margin-top: 54px;
+	margin-bottom: 0;
+}
+
+.reconocimientos img{
+	border: 1px solid #999999;
+	padding: 10px;
+	visibility: hidden;
+}
+
+.reconocimientos h1{
+	margin-bottom: 50px;
+}
+
+.footer ul li{
+	display: inline;
+	padding-right: 30px;
+}
+
+div.footer {
+	background-color: #26C9FF;
+	color: #ffffff;
+	height: 60px;
+	padding-top: 17px;
+}
+
+@media (max-width: 767px) {
+	.slider img{
+		display: none;
+	}
+	.llamanos h2{
+		font-size: 17px;
+		margin-top: 16px;
+	}
+	.queobtienes p{
+		margin-bottom: 65px;
+		margin-top: 55px;
+	}
+	
+	.cuantocuesta p{
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.como_se_usan i{
+		margin-left: 245px;
+	}
+	
+	.bx-wrapper {
+		text-align: center;
+	}
+	
+	.bx-wrapper img {
+		margin-left: 28%;
+	}
+	
+	.testimoniales p{
+		margin-top: 16px;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	
+	ul.nav.navbar-nav {
+		margin-top: 19px;
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+	
+	
+}div.comparte {
+	background-color: #27c8fe;
+	color: #ffffff;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+button.navbar-toggle {
+	margin-top: 27px;
+}
+
+button.navbar-toggle:hover {
+	color: #ffffff !important;
+}
+
+.comparte h1{
+	margin-bottom: 60px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ .slider img{
+ 	display: none;
+ }
+ 
+ .queobtienes p{
+ 	margin-bottom: 65px;
+ 	margin-top: 55px;
+ }
+ 
+ .como_se_usan i{
+ 	margin-left: 254px;
+ }
+ 
+ .bx-wrapper {
+ 	text-align: center;
+ }
+ 
+ .bx-wrapper img {
+ 	margin-left: 240px;
+ }
+ 
+ .testimoniales p{
+ 	margin-top: 24px;
+ }
+ 
+ ul.nav.navbar-nav {
+ 	margin-top: 19px;
+ 	margin-left: 0 ;
+ }
+.navbar-nav > li a {
+	padding: 10px;
+	font-size: 15px;
+}
+
+.prueba button{
+	float: none;
+	display: block;
+}
+
+
+
+
+ 
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.slider img{
+		width: 500px;
+		height: 334px;
+		margin-top: 13px;
+	}
+	
+	div.slider{
+		height: 346px;
+	}
+	
+	.slider h1{
+		margin-top: 77px;
+	}
+	
+	.slider p{
+		margin-bottom: 15px;
+	}
+	
+	.prueba button{
+		float: none;
+		display: block;
+	}
+}
