@@ -403,8 +403,8 @@ div.reconocimientos {
 div.footer {
 	background-color: #26C9FF;
 	color: #ffffff;
-	height: 60px;
 	padding-top: 17px;
+	padding-bottom: 17px;
 }
 
 nav.navbar.navbar-default.sub {
@@ -462,6 +462,37 @@ div.dudas {
 	margin-top: 53px;
 }
 
+.foto_nosotros{
+	margin-top: 150px;
+	background: url(../img/somosfontacto.jpg) center top;
+	height: 250px;
+	padding-top: 100px;
+	color: #ffffff;
+}
+
+div.desarrollado {
+	margin-bottom: 60px;
+	background-color: #e7e7e7;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.achievement img{
+	width: 250px;
+}
+
+.achievement {
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+.achievement p {
+	font-size: .9em;
+	line-height: normal;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 @media (max-width: 767px) {
 	.slider img{
 		display: none;
@@ -505,7 +536,9 @@ div.dudas {
 	}
 	
 	
-}div.comparte {
+}
+
+div.comparte {
 	background-color: #27c8fe;
 	color: #ffffff;
 	padding-top: 120px;
