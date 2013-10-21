@@ -493,6 +493,20 @@ div.desarrollado {
 	margin-bottom: 30px;
 }
 
+.map {
+	margin-top: 150px;
+	height: 300px;
+}
+
+.datos input{
+	margin-bottom: 15px;
+}
+
+.datos {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
 @media (max-width: 767px) {
 	.slider img{
 		display: none;
