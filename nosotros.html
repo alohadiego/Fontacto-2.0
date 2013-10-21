@@ -34,11 +34,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand slideDown" href="#"><img src="img/logo.png" alt="" /></a>
+          <a class="navbar-brand slideDown" href="index.html"><img src="img/logo.png" alt="" /></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#" id="cuantocuesta">Cuanto cuesta</a></li>
+            <li><a href="index.html">Cuanto cuesta</a></li>
             <li><a href="#">Preguntas</a></li>
             <li><a href="#">Nosotros</a></li>
             <li><a href="#">Contacto</a></li>
@@ -54,43 +54,9 @@
     		<h2><span class="bold_roboto">Dudas y contrataciones:</span>  01 (800) 030-2263  ó  (55) 1209-1160</h2>
     	</div>
     </div>
+	
+	
 
-  	<div class="dudas">
-  		<div class="container">
-  			<h1>¿Tienes alguna duda?</h1>
-  			
-  		</div>
-  	</div>
-	<nav class="navbar navbar-default sub" role="navigation">
-		<div class="container">
-			<button type="button" class="btn btn-default navbar-btn">Contratación</button>
-			<button type="button" class="btn btn-default navbar-btn">Mensaje de Bienvenida</button>
-			<button type="button" class="btn btn-default navbar-btn">Cómo funciona</button>
-			<button type="button" class="btn btn-default navbar-btn">Cómo comprar</button>
-			<button type="button" class="btn btn-default navbar-btn">Comparativa</button>
-		</div>
-	</nav>
-
-
-  	
-  	<div class="preguntas">
-  		<div class="container">
-  			<h1>Contratación</h1>
-  			
-  			<h2>¿Hay algún plazo forzoso?</h2>
-  			<p>Fontacto es un servicio sin plazo forzoso que funciona a través del prepago de créditos. Los créditos que adquieres tienen una vigencia de 30 días a partir de tu fecha de compra.</p>
-  			
-  			<h2>¿Puedo tener un número 01-800?</h2>
-  			<p>Actualmente sólo te podemos brindar números locales de las ciudades: Guadalajara, Monterrey, Distrito Federal y Aguascalientes.</p>
-  			
-  			<h2>¿Tengo que instalar algo?</h2>
-  			<p>Con Fontacto no necesitas instalar nada en tu computadora o teléfono. Cuando requieras hacer un cambio en la configuración, puedes hacerlo en tu panel de usuario desde cualquier navegador de Internet.</p>
-  			
-  		</div>
-  	</div>
-  	
-  	
-    
     <div class="footer">
     	<div class="container">
     		<div class="row">
@@ -116,41 +82,37 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	<script src="bxslider/jquery.bxslider.min.js"></script> 
-    
-    <script type="text/javascript">
-    	$(document).ready(function(){
-    	  $('.bxslider').bxSlider();
-    	});
-    </script>
-    
    <script>
-   	$(window).scroll(function() {
-   		var funcionalidad_header_pos = $('#funcionalidad_header').offset().top;
-   		var reconocimientos_header_pos = $("#reconocimientos_header").offset().top;
-   		var topOfWindow = $(window).scrollTop();
-   		
-   		if (funcionalidad_header_pos < topOfWindow+700){
-   			$('.feature i').addClass("fadeIn"); 
-   		}
-   		
-   		if (reconocimientos_header_pos < topOfWindow+700){
-   			$('.reconocimientos img').addClass("fadeIn"); 
-   		}
-   	});
-   	
-   	$('#cuantocuesta').click(function(){
-   		$.scrollTo($('.cuantocuesta'),1200,'slow');
-   	});
-   	
-   	$('#boton_contratar').click(function(){
-   		$.scrollTo($('.cuantocuesta'),1200,'slow');
-   	});
-   	
-   	$('#boton_funcionalidad').click(function(){
-   		$.scrollTo($('.funcionalidad'),1200,'slow');
-   	});
-   	
+		
+		$('#btn_contratacion').click(function(){
+			$.scrollTo($('#contratacion'),1200,{
+				offset:-250
+			});
+		});
+		
+		$('#btn_mensaje').click(function(){
+			$.scrollTo($('#mensaje'),1200,{
+				offset:-250
+			});
+		});
+		
+		$('#btn_funciona').click(function(){
+			$.scrollTo($('#funciona'),1200,{
+				offset:-250
+			});
+		});
+		
+		$('#btn_comprar').click(function(){
+			$.scrollTo($('#comprar'),1200,{
+				offset:-250
+			});
+		});
+		
+		$('#btn_comparativa').click(function(){
+			$.scrollTo($('#comparativa'),1200,{
+				offset:-250
+			});
+		});
    </script>
    
  

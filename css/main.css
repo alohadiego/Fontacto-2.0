@@ -409,6 +409,33 @@ div.footer {
 
 nav.navbar.navbar-default.sub {
 	text-align: center;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 222px;
+}
+
+div.seccion {
+	margin-top: 50px;
+	border-top: 3px solid #27c7fd;
+	padding-top: 50px;
+}
+
+.seccion h1{
+	margin-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #eeeeee;
+}
+
+.seccion h2 {
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+div.preguntas {
+	margin-bottom: 80px;
+	padding-top: 195px;
 }
 
 .side{
@@ -421,8 +448,12 @@ nav.navbar.navbar-default.sub {
 
 div.dudas {
 	background-color: #27c8fe;
-	padding-top: 120px;
-	padding-bottom: 30px;
+	padding-top: 104px;
+	padding-bottom: 15px;
+	right: 0;
+	left: 0;
+	top: 0;
+	position: fixed;
 }
 
 
