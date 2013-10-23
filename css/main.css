@@ -2,7 +2,7 @@ body {
 	font: 18px/26px Gudea, Arial, Helvetica, Geneva, sans-serif;
 	font-weight: 400;
 	color: #777;
-/*	-webkit-text-stroke: 0.35px*/
+	-webkit-text-stroke: 0.35px
 }
 
 h1 {
@@ -34,6 +34,50 @@ i.icon-plus-sign {
 	padding: 0;
 	margin: 0 12px 0 0;
 	font-size: 19px;
+}
+
+#login_form {
+	width: 350px;
+	height: auto;
+	text-align: center;
+	padding: 20px;
+	background-color: #f1f1f1;
+	float: right;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: relative;
+	color: #848484;
+	left: 125px;
+}
+
+#login-error {
+	display: none;
+}
+
+#UserLoginForm div.submit input.btn.btn-default.btn-lg {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+textarea#msj-recommend.form-control {
+	margin-top: 20px;
+}
+
+#login_form a {
+	font-size: .85em;
+}
+
+#UserLoginForm div.input.password {
+	margin-top: 20px;
+}
+
+.login {
+	z-index: 99999;
+	position: relative;
+	height: 0;
+	clear: both;
+	float: right;
 }
 
 
@@ -570,6 +614,17 @@ div.direccion {
 		text-align: center;
 	}
 	
+	#login_form {
+		position: relative;
+		left: 0;
+		right: 0;
+		margin: 0;
+		width: 100%;
+	}
+	
+	.login {
+		width: 100%;
+	}
 	
 }
 
@@ -631,7 +686,6 @@ button.navbar-toggle:hover {
 	float: none;
 	display: block;
 }
-
 
 
  

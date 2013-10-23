@@ -4,22 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="favicon.png">
+    <meta name="author" content="Diego Cantu">
+    <meta name="keywords" content="pbx,virtual pbx,conmutador,skype,línea telefónica,teléfono ip,teléfono negocio,línea internet,01 800,teléfono internet,skype in,teléfono empresa,Teléfono virtual,teléfono skype,línea telefónica empresa,teléfono pyme,número virtual,telefonía virtual,número virtual méxico,plan telcel,conmutador virtual,conmutador barato,Teléfono con conmutador,conmutador accesible,conmutador en internet,línea sin renta,línea telefónica negocio,línea telefónica pyme,número virtual df,número virtual gdl,número virtual guadalajara,número virtual monterrey,número virtual mty,número virtual qro,número virtual querétaro,plan telcel empresa,plan telcel negocio,plan telcel pyme,plan teléfono empresa,plan teléfono negocio,plan teléfono pyme,sustituto nextel,sustituto nextel empresa,sustituto nextel negocio,sustituto nextel pyme,sustituto sígueme telmex,sígueme telmex,teléfono sin renta,nuevas alternativas telefonía"/>
+    
+    <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.png">
 
     <title>Fontacto.com</title>
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Gudea:400,700|Roboto:300' rel='stylesheet' type='text/css'>
-    <link href="bxslider/jquery.bxslider.css" rel="stylesheet" />
-    <link href="css/animations.css" rel="stylesheet" />
+    <link href="<?php bloginfo('template_url'); ?>/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link href="<?php bloginfo('template_url'); ?>/css/animations.css" rel="stylesheet" />
     
     
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>      
+      <script src="<?php bloginfo('template_url'); ?>/js/html5shiv.js"></script>
+      <script src="<?php bloginfo('template_url'); ?>/js/respond.min.js"></script>      
     <![endif]-->
   </head>
 
@@ -34,7 +36,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand slideDown" href="#"><img src="img/logo.png" alt="" /></a>
+          <a class="navbar-brand slideDown" href="#"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="" /></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -92,7 +94,7 @@
     		<div class="row">
 	    		<div class="col-md-12">
 	    			<div class="col-md-7">
-	    				<img src="img/usuario_slider.png" alt="" />
+	    				<img src="<?php bloginfo('template_url'); ?>/img/usuario_slider.png" alt="" />
 	    			</div><!--end col-md-7-->
 	    			<div class="col-md-5">
 	    				<h1>Un número que puedes contestar donde quieras.</h1>
@@ -182,7 +184,7 @@
     			
     			<div class="paquete col-md-3">
     				<div class="header_telcel">
-    					<img src="img/logo_telcel.png" alt="" />
+    					<img src="<?php bloginfo('template_url'); ?>/img/logo_telcel.png" alt="" />
     				</div>
     				<div class="container_paquete">
 	    				<h2>$99 / Mes</h2>
@@ -192,7 +194,7 @@
     				</div>
     				<div class="formaspago_telcel">
     					<h4>Forma de Pago</h4>
-    					<img src="img/pago_telcel_bg.png" alt="Paga con Telcel" />
+    					<img src="<?php bloginfo('template_url'); ?>/img/pago_telcel_bg.png" alt="Paga con Telcel" />
     				</div>
     			</div> <!--end paquete col-md-3-->
     			
@@ -209,11 +211,11 @@
     				<div class="formaspago_telcel">
     					<h4>Forma de Pago</h4>
     					<ul>
-    						<li><img src="img/pago_mastercard.png" alt="" /></li>
-    						<li><img src="img/pago_visa.png" alt="" /></li>
-    						<li><img src="img/pago_paypal.png" alt="" /></li>
-    						<li><img src="img/pago_oxxo.png" alt="" /></li>
-    						<li><img src="img/pago_banco.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_mastercard.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_visa.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_paypal.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_oxxo.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_banco.png" alt="" /></li>
     					</ul>
     				</div>
     			</div> <!--end paquete col-md-3-->
@@ -231,11 +233,11 @@
     				<div class="formaspago_telcel">
     					<h4>Forma de Pago</h4>
     					<ul>
-    						<li><img src="img/pago_mastercard.png" alt="" /></li>
-    						<li><img src="img/pago_visa.png" alt="" /></li>
-    						<li><img src="img/pago_paypal.png" alt="" /></li>
-    						<li><img src="img/pago_oxxo.png" alt="" /></li>
-    						<li><img src="img/pago_banco.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_mastercard.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_visa.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_paypal.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_oxxo.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_banco.png" alt="" /></li>
     					</ul>
     				</div>
     			</div> <!--end paquete col-md-3-->
@@ -253,11 +255,11 @@
     				<div class="formaspago_telcel">
     					<h4>Forma de Pago</h4>
     					<ul>
-    						<li><img src="img/pago_mastercard.png" alt="" /></li>
-    						<li><img src="img/pago_visa.png" alt="" /></li>
-    						<li><img src="img/pago_paypal.png" alt="" /></li>
-    						<li><img src="img/pago_oxxo.png" alt="" /></li>
-    						<li><img src="img/pago_banco.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_mastercard.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_visa.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_paypal.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_oxxo.png" alt="" /></li>
+    						<li><img src="<?php bloginfo('template_url'); ?>/img/pago_banco.png" alt="" /></li>
     					</ul>
     				</div>
     			</div> <!--end paquete col-md-3-->
@@ -287,7 +289,7 @@
 	    			9 créditos / minuto</p>
 	    		</div>
 	    		<div class="col-md-3">
-	    			<i class="img-circle nextel"><img src="img/icon_nextel.png" alt="" /></i>
+	    			<i class="img-circle nextel"><img src="<?php bloginfo('template_url'); ?>/img/icon_nextel.png" alt="" /></i>
 	    			<p><span class="bold">Contestada en celular</span><br>
 	    			9 créditos / minuto</p>
 	    		</div>
@@ -337,31 +339,31 @@
     		<div class="row">
 				<ul class="bxslider">
 				  <li>
-					  <img class="col-md-3 img-circle" src="img/andreatroyo.jpg" />
+					  <img class="col-md-3 img-circle" src="<?php bloginfo('template_url'); ?>/img/andreatroyo.jpg" />
 					  <p>Uno de los beneficios principales ha sido contar con una imagen corporativa y profesional ante los clientes que nos buscan por teléfono.</p>
 					  <span class="bold">Andrea Troyo,</span> Personae Consultores
   				  </li>
   				  
   				  <li>
-  				  	  <img class="col-md-3 img-circle" src="img/jamaica.jpg" />
+  				  	  <img class="col-md-3 img-circle" src="<?php bloginfo('template_url'); ?>/img/jamaica.jpg" />
   				  	  <p>Lo que más me gusta y que no tiene ningún otro sistema es la facilidad que yo tengo para expandir la capacidad.</p>
   				  	  <span class="bold">Arturo Jamaica,</span>  Brounie
   				    </li>
   				    
   				    <li>
-  				    	  <img class="col-md-3 img-circle" src="img/olab.jpg" />
+  				    	  <img class="col-md-3 img-circle" src="<?php bloginfo('template_url'); ?>/img/olab.jpg" />
   				    	  <p>Somos una empresa que no estamos en la oficina y hay mucho contacto con clientes y proveedores. Nos ayuda a vernos profesionales y estar realmente disponibles para el cliente.</p>
   				    	  <span class="bold">Leticia Perea y Arasi K.,</span>  O-Lab
   				      </li>
   				      
   				      <li>
-  				      	  <img class="col-md-3 img-circle" src="img/fernando.jpg" />
+  				      	  <img class="col-md-3 img-circle" src="<?php bloginfo('template_url'); ?>/img/fernando.jpg" />
   				      	  <p>Para mi Fontacto es una herramienta increíble que aparte de darme la practicidad de traer siempre conmigo la comunicación con mis pacientes, también le ha creado una imagen más profesional a mi empresa.</p>
   				      	  <span class="bold">Fernando Urrieta,</span> Dentyco
 				        </li>
 				        
 				        <li>
-			        	  <img class="col-md-3 img-circle" src="img/fernando.jpg" />
+			        	  <img class="col-md-3 img-circle" src="<?php bloginfo('template_url'); ?>/img/fernando.jpg" />
 			        	  <p>Lo recomiendo porque se me hace súper accesible y es algo que cualquier empresa necesita… se me hace el mejor invento de telefonía</p>
 			        	  <span class="bold">Alejandra Velasco,</span> Glide
 				        </li>
@@ -374,17 +376,17 @@
 	    	<h1 id="reconocimientos_header">Reconocimientos</h1>
     		<div class="row">
     			<div class="col-md-4">
-	    			<img class="img-circle" src="img/media_cnnexpansion.jpg" alt="" />
+	    			<img class="img-circle" src="<?php bloginfo('template_url'); ?>/img/media_cnnexpansion.jpg" alt="" />
 	    			<p>Emprendedores del año</p>
     			</div>
     			
     			<div class="col-md-4">
-    				<img class="img-circle" src="img/media_entrepreneur.png" alt="" />
+    				<img class="img-circle" src="<?php bloginfo('template_url'); ?>/img/media_entrepreneur.png" alt="" />
     				<p>“El primer servicio de telefonía virtual para PyMEs en México”</p>
     			</div>
     			
     			<div class="col-md-4">
-    				<img class="img-circle" src="img/media_campusparty.png" alt="" />
+    				<img class="img-circle" src="<?php bloginfo('template_url'); ?>/img/media_campusparty.png" alt="" />
     				<p>PROMEXICO
     				en Campus Party Mexico</p>
     			</div>
@@ -399,9 +401,9 @@
     			<div class="col-md-7">
 	    			<ul>
 	    				<li><a href="#" id="cuantocuesta">Cuanto cuesta</a></li>
-	    				<li><a href="preguntas.html">Preguntas</a></li>
-	    				<li><a href="nosotros.html">Nosotros</a></li>
-	    				<li><a href="contacto.html">Contacto</a></li>
+	    				<li><a href="<?php bloginfo('template_url'); ?>/preguntas.html">Preguntas</a></li>
+	    				<li><a href="<?php bloginfo('template_url'); ?>/nosotros.html">Nosotros</a></li>
+	    				<li><a href="<?php bloginfo('template_url'); ?>/contacto.html">Contacto</a></li>
 	    			</ul>
     			</div>
     			<div class="col-md-3">
@@ -415,10 +417,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-	<script src="js/jquery.js"></script>
-	<script src="js/jquery.scrollTo.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-	<script src="bxslider/jquery.bxslider.min.js"></script> 
+	<script src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/js/jquery.scrollTo.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/bxslider/jquery.bxslider.min.js"></script> 
     
     <script type="text/javascript">
     	$(document).ready(function(){
